@@ -31,13 +31,13 @@ This is a Movie Recommender System web application built using Streamlit. It use
 4.The web app will open in your default web browser. Select a movie, click the "Show Recommendation" button, and view the recommendations.
 
 ##Data Sources
-Movie data is obtained from [@TMDB (The Movie Database)](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
+Movie data is obtained from [TMDB (The Movie Database)](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 
 
 ##Dependencies
 
-- [@Streamlit](https://streamlit.io/)
-- [@Requests]([https://streamlit.io/](https://docs.python-requests.org/en/latest/))
+- [Streamlit](https://streamlit.io/)
+- [Requests]([https://streamlit.io/](https://docs.python-requests.org/en/latest/))
 
 ##Acknowledgments
 - Data source: [@TMDB API](https://developer.themoviedb.org/docs/getting-started)
