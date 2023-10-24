@@ -1,53 +1,50 @@
 # ML-project- Movie Recommender System with TMDb Dataset
-#Introduction:-
-This Movie Recommender System is a web application that helps users discover new movies based on their preferences and browsing history. It uses the TMDb (The Movie Database) dataset and is built using the Streamlit framework for a user-friendly web interface.
+# Movie Recommender System
 
-#Features:-
--Personalized Movie Recommendations: The system analyzes user preferences and recommends movies that are likely to be of interest.
+This is a Movie Recommender System web application built using Streamlit. It uses the TMDB (The Movie Database) dataset for movie recommendations. The system allows users to select a movie from a dropdown list and provides recommendations based on movie similarity.
 
--Search Functionality: Users can search for specific movies
+## Features
 
+- Select a movie from the dropdown menu.
+- Click the "Show Recommendation" button to get recommendations.
+- View recommended movies along with their posters.
 
-#Prerequisites:-
-Before you run the Movie Recommender System, make sure you have the following prerequisites installed on your system:
+## How to Run
 
--Python (3.6+)
--Pip (Python package manager)
--Git (for cloning the repository)
--TMDb API Key: You'll need to create an account on TMDb and obtain an API key.
+## How to Run
 
-#Installation
-1.Clone the repository:
+1. Clone this repository to your local machine.
 
-git clone https://github.com/your-username/movie-recommender.git
-cd movie-recommender
+   ```bash
+   git clone https://github.com/yourusername/movie-recommender-system.git
+   cd movie-recommender-system   
 
-2.Create a virtual environment (optional but recommended):
+2. Install the necessary Python libraries if you haven't already. You can do this using `pip`:
 
-python -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
+   ```bash
+   pip install streamlit requests
 
-3.Install the required packages:
+3. To run the web app, use the following command: 
+   ```bash
+   streamlit run main.py
 
-pip install -r requirements.txt
+4.The web app will open in your default web browser. Select a movie, click the "Show Recommendation" button, and view the recommendations.
 
-4.Configure the TMDb API Key:
-
-Open the config.py file and replace 'YOUR_TMDB_API_KEY' with your actual TMDb API key.
-
-5.Run the application:
-
-streamlit run main.py
+##Data Sources
+Movie data is obtained from [@TMDB (The Movie Database)](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 
 
+##Dependencies
 
-The web application should now be running locally. Access it in your web browser by visiting http://localhost:8501.
+- [@Streamlit](https://streamlit.io/)
+- [@Requests]([https://streamlit.io/](https://docs.python-requests.org/en/latest/))
 
+##Acknowledgments
+- Data source: [@TMDB API](https://developer.themoviedb.org/docs/getting-started)
 
-#Acknowledgments
+##Author
+- Shakil Kathat
+- [@itz-shakil-92](https://www.github.com/itz-shakil-92)
 
-This project uses the TMDb API for movie data, which is provided by TMDb (The Movie Database).
-
-
-#Contact
+##Contact
 If you have any questions or need further assistance, please feel free to contact us at shakilkathat5603@gmail.com
