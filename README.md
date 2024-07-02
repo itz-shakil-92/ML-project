@@ -16,7 +16,7 @@ This is a Movie Recommender System web application built using Streamlit. It use
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/movie-recommender-system.git
+   git clone https://github.com/itz-shakil-92/Movie-Recommeder-System-ML-Project.git
    cd movie-recommender-system   
 
 2. Install the necessary Python libraries if you haven't already. You can do this using `pip`:
