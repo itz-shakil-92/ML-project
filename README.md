@@ -34,17 +34,16 @@ This is a Movie Recommender System web application built using Streamlit. It use
 Movie data is obtained from [TMDB (The Movie Database)](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 
 
-##Dependencies
+## Dependencies
 
 - [Streamlit](https://streamlit.io/)
 - [Requests]([https://streamlit.io/](https://docs.python-requests.org/en/latest/))
 
-##Acknowledgments
+## Acknowledgments
 - Data source: [TMDB API](https://developer.themoviedb.org/docs/getting-started)
 
-##Author
-- Shakil Kathat
-- [itz-shakil-92](https://www.github.com/itz-shakil-92)
+## Author
+- [Shakil Kathat](https://www.github.com/itz-shakil-92)
 
-##Contact
+## Contact
 If you have any questions or need further assistance, please feel free to contact us at shakilkathat5603@gmail.com
